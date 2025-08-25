@@ -1,9 +1,11 @@
-\documentclass{resume}
+\documentclass[8pt]{resume}
 \usepackage[hidelinks]{hyperref}
 
 % Compact lists
 \usepackage{enumitem}
-\setlist[itemize]{itemsep=2pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+\setlist[itemize]{itemsep=1pt, topsep=1pt, parsep=0pt, partopsep=0pt}
+\titlespacing*{\section}{0pt}{15pt plus 2pt minus 2pt}{12pt plus 2pt minus 2pt}
+
 
 \begin{document}
 \begin{center}
@@ -29,29 +31,36 @@
 \section{Experience}
 
 \textbf{Data Product Manager} \hfill \textbf{Sept 2024 – Present}\\
-Supply Trace \hfill \textit{Boston, MA}
+\textit{Supply Trace} \hfill \textit{Boston, MA}
 \begin{itemize}
     \item Managed a \textbf{team of 3 developers}, improving sprint velocity with tighter scoping and tracking.
-    \item Designed algorithms to process and merge \textbf{millions of data points/month}, improving reliability and throughput.
+    \item Designed a high-throughput algorithm that merges company records by matching name and location, handling \textbf{millions of entries monthly} with improved accuracy.
     \item Rebuilt \textbf{ingestion pipelines} with safer deploys and monitoring, reducing ETL latency by \textbf{50\%}.
 \end{itemize}
 
 \textbf{Software Development Engineering Intern} \hfill \textbf{May 2025 – Aug 2025}\\
-Amazon Web Services (AWS) \hfill \textit{Boston, MA}
+\textit{Amazon Web Services (AWS)} \hfill \textit{Boston, MA}
 \begin{itemize}
     \item Built a \textbf{scalable GenAI system} to extract and import contracts, reducing manual effort by \textbf{80\%} and cutting processing time from \textbf{3 hours to under 2 minutes}.
     \item Developed a \textbf{secure React frontend} with \textbf{SSO/Federate login} and a \textbf{Lambda-based backend} using \textbf{Bedrock, Glue, S3, DynamoDB}; handled \textbf{hundreds of contracts/month}.
 \end{itemize}
 
+\textbf{Web Developer} \hfill \textbf{Dec 2024 – Feb 2025}\\
+\textit{MM Bank Brasil} \hfill \textit{Remote}
+\begin{itemize}
+    \item Designed and developed an engaging, user-friendly website for a leading Brazilian bank.
+    \item Delivered responsive layouts and optimized performance for cross-device compatibility.
+\end{itemize}
+
 \textbf{Software Development Engineering Intern} \hfill \textbf{May 2024 – Aug 2024}\\
-Amazon Web Services (AWS) \hfill \textit{Dallas, TX}
+\textit{Amazon Web Services (AWS)} \hfill \textit{Dallas, TX}
 \begin{itemize}
     \item Extracted and processed data from \textbf{2M+ users} via \textbf{Productiv API}, unlocking better product insights.
     \item Built dashboards in \textbf{Amazon QuickSight}, increasing stakeholder visibility and contributing to \textbf{\$10M} in cost reductions.
 \end{itemize}
 
 \textbf{Manager} \hfill \textbf{Jun 2021 – Aug 2023}\\
-Code Ninjas Aventura \hfill \textit{Miami, FL}
+\textit{Code Ninjas} \hfill \textit{Miami, FL}
 \begin{itemize}
     \item Oversaw \textbf{15 instructors}, managing ops/training/scheduling for \textbf{100+ students}.
     \item Grew revenue to \textbf{\$30,000+ monthly}, peaking at \textbf{\$70,000+} during summer camps.
@@ -62,25 +71,25 @@ Code Ninjas Aventura \hfill \textit{Miami, FL}
 % =======================
 \section{Projects}
 
-\textbf{TwoPix (Private Photo Messaging App)} $|$ SwiftUI, Firebase
+\textbf{TwoPix (Private Photo Messaging App)} \textit{| SwiftUI, Firebase}
 \begin{itemize}
     \item Built a gesture-driven photo messaging app for two users with \textbf{pinch, swipe, and double-tap} interactions.
     \item Implemented secure pairing via a “\textbf{Pix Code},” real-time chat sync, and automated cleanup of older files.
 \end{itemize}
 
-\textbf{HouseFinder (Real Estate Analytics Platform)} $|$ Python, AWS, Pandas, Matplotlib, BeautifulSoup4
+\textbf{HouseFinder (Real Estate Analytics Platform)} \textit{| Python, AWS, Pandas, Matplotlib, BeautifulSoup4}
 \begin{itemize}
     \item Developed a \textbf{data pipeline} to scrape, clean, and analyze real estate listings and neighborhood trends.
     \item Automated weekly delivery of \textbf{CSV + visualization reports} via AWS with persistent S3 artifacts.
 \end{itemize}
 
-\textbf{AutoJobApplier (Automation Tool)} $|$ Python, Selenium, Google Sheets API, BeautifulSoup4
+\textbf{AutoJobApplier (Automation Tool)} \textit{| Python, Selenium, Google Sheets API, BeautifulSoup4}
 \begin{itemize}
     \item Created an automation system that logs in, searches jobs, applies with stored data, and uploads resumes.
     \item Built an integrated \textbf{Google Sheets tracker} with a CSV fallback for monitoring application progress.
 \end{itemize}
 
-\textbf{SurvivalSprintHarvest (AI Simulation)} $|$ Java, Swing, OOP
+\textbf{SurvivalSprintHarvest (AI Simulation)} \textit{| Java, Swing, OOP}
 \begin{itemize}
     \item Designed an \textbf{agent-based survival simulation} with adaptive foraging and energy-management strategies.
     \item Built a \textbf{real-time Swing visualizer} for debugging and analyzing emergent AI behaviors.
